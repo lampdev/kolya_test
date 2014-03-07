@@ -1,0 +1,27 @@
+services:
+    # sonata.admin.post:
+    #     class: Acme\TestBundle\Admin\ProductAdmin
+    #     tags:
+    #         - name: sonata.admin
+    #           manager_type: orm
+    #           group: "acme.admin.group.content"
+    #           label: "acme.admin.model.post"
+    #           label_catalogue: "AcmeTestBundle"
+    #     arguments:
+    #         - ~
+    #         - Acme\TestBundle\Entity\Post
+    #         - AcmeTestBundle:ProductAdmin
+    #     calls:
+    #         - [ setLabelTranslatorStrategy, ["@sonata.admin.label.strategy.underscore"]]
+
+    # acme.test.admin.product:
+    #     class: Acme\TestBundle\Admin\ProductAdmin
+    #     tags:
+    #         - { name: sonata.admin, manager_type: orm, group: Tables, label: Products }
+    #     arguments: [ null, Acme\TestBundle\Entity\Product, AcmeTestBundle:ProductAdmin ]
+
+    # acme.test.admin.category:
+    #     class: Acme\TestBundle\Admin\CategoryAdmin
+    #     tags:
+    #         - { name: sonata.admin, manager_type: orm, group: Tables, label: Categories }
+    #     arguments: [ null, Acme\TestBundle\Entity\Category, AcmeTestBundle:CategoryAdmin ]
